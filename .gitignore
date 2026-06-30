@@ -1,0 +1,145 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.lai
+*.la
+*.lo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build directories
+build/
+bin/
+obj/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Qt
+*.autosave
+*.qm
+*.pro.user
+*.pro.user.*
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# IDEs
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ML Models (large files)
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+models/*.bin
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Configuration (with sensitive data)
+config.yaml
+.env
+secrets.yaml
+
+# Keep example configs
+!config.yaml.example
+!.env.example
+
+# Documentation builds
+docs/_build/
+docs/generated/
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Installation packages
+*.msi
+*.deb
+*.rpm
+*.dmg
+*.pkg
